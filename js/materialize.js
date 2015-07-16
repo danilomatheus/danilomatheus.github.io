@@ -1,4 +1,4 @@
-/*!
+ /*!
  * Materialize v0.96.1 (http://materializecss.com)
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
@@ -6015,9 +6015,10 @@ Picker.extend( 'pickadate', DatePicker )
       $input.addClass('invalid');
     }
   }
-
+$(".button-collapse").sideNav();
   $(document).ready(function(){
     $('input, textarea').characterCounter();
   });
 
 }( jQuery ));
+
